@@ -95,9 +95,7 @@ todo-app/
 ├── src/
 │   ├── server.js             # App entry point
 │   ├── routes/               # Express routes
-│   ├── controllers/          # Logic handlers
 │   ├── middleware/           # Auth middleware, etc.
-│   └── models/               # Prisma models
 ├── Dockerfile
 ├── docker-compose.yml
 ├── package.json
@@ -111,15 +109,6 @@ todo-app/
 * `app` service: Node.js server
 * `db` service: PostgreSQL database
 * Persistent volume: `postgres-data`
-
----
-
-## ✅ Todo (Planned Improvements)
-
-* [ ] Frontend (React/Vue)
-* [ ] Todo priority and due dates
-* [ ] User roles (admin, user)
-* [ ] Unit tests and CI setup
 
 ---
 
